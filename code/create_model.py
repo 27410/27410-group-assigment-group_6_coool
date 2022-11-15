@@ -14,7 +14,7 @@ Artemisinic_acid_e = Metabolite(id = 'artem_acid_e', name = 'Artemisinic acid_e'
 # Create all reactions
 ADS = Reaction('ADS_reaction')
 ADS.add_metabolites({
-    model.metabolites.M_FPP__91__c__93__: -1,
+    model.metabolites.FPP: -1,
     Amorphadiene: 1
 })
 
