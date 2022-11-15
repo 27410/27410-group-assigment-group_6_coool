@@ -33,12 +33,12 @@ ADH1.add_metabolites({
 ALDH1 = Reaction('ALDH1_reaction')
 ALDH1.add_metabolites({
     Artemisinic_aldehyde: -1,
-    Artemisinic_acid: 1
+    Artemisinic_acid_c: 1
 })
 
 Artemisinic_acid_ex = Reaction('Artemisinic_acid_exchange_reaction')
 Artemisinic_acid_ex.add_metabolites({
-    Artemisinic_acid: -1,
+    Artemisinic_acid_c: -1,
     Artemisinic_acid_e: 1
 })
 
