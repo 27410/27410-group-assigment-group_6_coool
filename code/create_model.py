@@ -36,7 +36,7 @@ ALDH1.add_metabolites({
     Artemisinic_acid_c: 1
 })
 
-Artemisinic_acid_ex = Reaction('Artemisinic_acid_exchange_reaction')
+Artemisinic_acid_ex = Reaction('ARTA_ex')
 Artemisinic_acid_ex.add_metabolites({
     Artemisinic_acid_c: -1,
     Artemisinic_acid_e: 1
