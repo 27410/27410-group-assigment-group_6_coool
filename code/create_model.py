@@ -8,8 +8,8 @@ model = read_sbml_model('../model/Aspergillus_ATCC1015.xml')
 Amorphadiene = Metabolite(id = 'amorpha', name = 'Amorphadiene', compartment = 'c')
 Artemisinic_alcohol = Metabolite(id = 'artem_alcohol', name = 'Artemisinic alcohol', compartment = 'c')
 Artemisinic_aldehyde = Metabolite(id = 'artem_aldehyde', name = 'Artemisinic aldehyde', compartment = 'c')
-Artemisinic_acid_c = Metabolite(id = 'artem_acid_c', name = 'Artemisinic acid_c', compartment = 'c')
-Artemisinic_acid_e = Metabolite(id = 'artem_acid_e', name = 'Artemisinic acid_e', compartment = 'e')
+Artemisinic_acid_c = Metabolite(id = 'ARTA_c', name = 'Artemisinic acid_c', compartment = 'c')
+Artemisinic_acid_e = Metabolite(id = 'ARTA_e', name = 'Artemisinic acid_e', compartment = 'e')
 
 # Create all reactions
 ADS = Reaction('ADS_reaction')
@@ -45,6 +45,6 @@ Artemisinic_acid_ex.add_metabolites({
 new_reactions = [ADS, CYP1_CYB5, ADH1, ALDH1, Artemisinic_acid_ex]
 
 model.add_reactions(new_reactions)
-model.add_boundary(model.metabolites.get_by_id("artem_acid_e"), type="exchange")
+model.add_boundary(model.metabolites.get_by_id("ARTA_e"), type="exchange")
 
 model
