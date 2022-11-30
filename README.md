@@ -3,7 +3,7 @@
 
 # 27410 - Group assignment - Group 6 - artemisinic acid production in Aspergillus niger
 
-## Project summary (<300 words)
+## Project summary 
 
 The aim of this project was to investigate the potential of the filamentous fungus *Aspergillus niger* as host organism for artemisinic acid. Therefore, we inserted the biosynthetic pathway of artemisinic acid into the GSM ATCC1015. By applying in-silico engineering strategies such as media optimization, gene knock-outs and FSEOF, we could identify 19 targets for metabolic optimization. Furthermore, we reconstructed the artemisinic acid pathway with Escher and manually identified potential knock-out candidates. We could show that *A. niger* has a higher theoretical productivity than *S. cervisiae*, which is the only organism engineered for the heterologous production of the compound so far. 
 
