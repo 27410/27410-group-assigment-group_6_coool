@@ -1,3 +1,11 @@
+# Ignore Mac OS file
+.DS_Store
+.pyre/
+documents/.DS_Store
+model/.DS_Store
+code/.DS_Store
+.Rhistory
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -125,5 +133,4 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
-.pyre/
+
