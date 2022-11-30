@@ -4,7 +4,8 @@
 # 27410 - Group assignment - Group 6 - artemisinic acid production in Aspergillus niger
 
 ## Project summary (<300 words)
-The goal of our project is to produce artemisinic acid in vitro using *A. niger* GSM models by engineering a biosynthetic pathway into it. In this project, we analyzed the potential use and market of artemisinin, and the natural biosynthetic pathway in *A. annua*. We thoroughly compared different *A. niger* GSM models, implemented the metabolites and reactions. We compared the theoretical yield of modified *A. niger* and *S. cervisiae*. We have found out the best medium for growth and its correlated theoretical yield. Furthermore, we made a gene regulation and knockout optimization through a few algorithms including FSEOF, OptGene and OptKnock. Finally, we tried manually knockout a few genes and pathways to get the highest yield.
+
+The aim of this project was to investigate the potential of the filamentous fungus Aspergillus niger as host organism for artemisinic acid. Therefore, we inserted the biosynthetic pathway of artemisinic acid into the GSM ATCC1015. By applying in-silico engineering strategies such as media optimization, gene knock-outs and FSEOF, we could identify 19 targets for metabolic optimization. Furthermore, we reconstructed the artemisinic acid pathway with Escher and manually identified potential knock-out candidates. We could show that A. niger has a higher theoretical productivity than S. cervisiae, which is the only organism engineered for the heterologous production of the compound so far. 
 
 ## Project overview
 
